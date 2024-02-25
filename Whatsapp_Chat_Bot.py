@@ -12,7 +12,7 @@ app = Flask(__name__)
 load_dotenv("../.env")
 messenger = WhatsApp(os.getenv("TOKEN"),
                      phone_number_id=os.getenv("ID"))
-VERIFY_TOKEN = "NIKKI"
+VERIFY_TOKEN = "Verify_token"
 
 # Logging
 logging.basicConfig(
